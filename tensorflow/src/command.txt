@@ -1,0 +1,4 @@
+gcc hello_tf.c -ltensorflow -o hello_tf
+./hello_tf
+
+gcc -I/usr/local/include -L/usr/local/lib hello_tf.c -ltensorflow -o hello_tf

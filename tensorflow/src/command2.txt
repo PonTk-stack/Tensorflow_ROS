@@ -1,0 +1,7 @@
+$ roscore
+
+$ python tensorflow_in_ros_mnist.py image:=/cv_camera/image_raw
+
+$ rosrun cv_camera cv_camera_node
+
+$ rostopic echo /result
